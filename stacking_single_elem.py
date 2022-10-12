@@ -1,7 +1,7 @@
 '''
-This program reads pw.in file, generates defect structures.
-The output file will be pw_0.in, pw_1.in .... pw_20.in for 0, 0.1 ... 2 fractional displacement respectively.
-Run using "python stacking_single_elem.py  <element> <lattice_parameter>" ex. "python stacking_single_elem.py  Al 4.04"
+This program reads pw.in file and generates defects by sliding the layer along the parital direction [-1-12].
+The generated defect sturcture will be saved in the file pw_0.in, pw_1.in .... pw_20.in for 0, 0.1 ... 2 fractional displacement respectively.
+Run using "python3 stacking_single_elem.py  <element> <lattice_parameter>" ex. "python3 stacking_single_elem.py  Al 4.04"
 '''
 
 import numpy as np
