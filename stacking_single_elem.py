@@ -1,5 +1,5 @@
 '''
-This program reads pw.in file, generates stacking sequence and introduces defects in them.
+This program reads pw.in file, generates defect structures.
 The output file will be pw_0.in, pw_1.in .... pw_20.in for 0, 0.1 ... 2 fractional displacement respectively.
 Run using "python stacking_single_elem.py  <element> <lattice_parameter>" ex. "python stacking_single_elem.py  Al 4.04"
 '''
